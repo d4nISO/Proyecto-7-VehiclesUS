@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 
 # Datos
-df = pd.read_csv("D:\101010 Revisiones\Sprint-7-Proyecto\clean_vehicles_df.csv")
+df = pd.read_csv("clean_vehicles_df.csv")
 df["type"] = df["type"].astype(str)
 
 ## creacion de la aplicacion
